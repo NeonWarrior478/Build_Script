@@ -21,6 +21,10 @@ echo "========================================================================"
 
 /opt/crave/resync.sh
 
+if [ ! -d "RisingOSS-devices/erwinabs/vendor_xiaomi/.git" ]; then
+    cd RisingOSS-devices/erwinabs/vendor_xiaomi && git init
+fi
+
 #Remove Device Resources (if any)
 echo "========================================================================"
 echo "DELETING DIRECTORIES"
