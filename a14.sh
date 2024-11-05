@@ -3,12 +3,12 @@
 # Upgrade System
 sudo apt update && sudo apt upgrade -y
 
-#Initiating RisingOS
+#Initiating crDroid
 echo "========================================================================"
 echo "INITIALIZING ROM REPOSITORY"
 echo "========================================================================"
 
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs
 
 echo "========================================================================"
 echo "ROM REPOSITORY INITIALIZED SUCCESSFULLY"
@@ -26,10 +26,12 @@ echo "========================================================================"
 echo "DELETING DIRECTORIES"
 echo "========================================================================"
 
-rm -rf device/xiaomi/munch
-rm -rf device/xiaomi/sm8250-common
-rm -rf vendor/xiaomi
-rm -rf kernel/xiaomi/sm8250
+rm -rf device/motorola/fogos
+rm -rf device/motorola/sm6375-common
+rm -rf vendor/motorola/fogos
+rm -rf vendor/motorola/sm6375-common
+rm -rf kernel/motorola/sm6375
+
 
 echo "========================================================================"
 echo "DELETED DIRECTORIES SUCCESSFULLY"
