@@ -1,4 +1,4 @@
-# Bring-Up Script for Munch
+# Bring-Up Script for Fogos
 
 **use the following command at Crave**
 ```bash
