@@ -3,12 +3,12 @@
 # Upgrade System
 sudo apt update && sudo apt upgrade -y
 
-#Initiating crDroid
+#Initiating PixelOS
 echo "========================================================================"
 echo "INITIALIZING ROM REPOSITORY"
 echo "========================================================================"
 
-repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
 
 echo "========================================================================"
 echo "ROM REPOSITORY INITIALIZED SUCCESSFULLY"
@@ -88,4 +88,5 @@ echo "BUILD STARTING"
 echo "========================================================================"
 
 source build/envsetup.sh
-brunch fogos
+lunch aosp_fogos-ap2a-userdebug
+mka bacon
