@@ -58,7 +58,7 @@ git clone https://github.com/NeonWarrior478/proprietary_vendor_motorola_sm6375-c
 git clone https://github.com/NeonWarrior478/android_kernel_motorola_sm6375.git  -b fourteen kernel/motorola/sm6375
 
 #6. Camera
-wget https://sourceforge.net/projects/rom-violet/files/fogos/MotCamera4.apk vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
+wget https://gitgud.io/okbuddygsi-dumps/motorola/fogos/-/blob/user-14-U1UGS34.23-82-2-3-653ba-release-keys/product/priv-app/MotCamera4/MotCamera4.apk vendor/motorola/fogos/proprietary/product/priv-app/MotCamera4
 
 echo "========================================================================"
 echo "BASIC MUNCH RESOURCES CLONED SUCCESSFULLY"
